@@ -1,0 +1,382 @@
+<resources>
+
+    <string name="payment_setting_btn">اعتبارات</string>
+    <string name="payment_see_page">مشاهده اعتبار</string>
+    <string name="update_alert_title">به روز رسانی نرم افزار</string>
+    <string name="update_alert_text">آیا مایل به بروزرسانی نرم افزار می باشید ؟</string>
+    <string name="logoff">خروج از حساب کاربری</string>
+    <string name="submit">ثبت</string>
+    <string name="later">بعدا</string>
+    <string name="bad_email_validation">ایمیل را درست وارد نکرده اید</string>
+    <string name="network_error">خطا در اتصال به اینترنت</string>
+    <string name="less_activation_code">کد فعالسازی نباید کمتر از ۵ رقم باشد</string>
+    <string name="more_activation_code">کد فعالسازی نباید بیشتر از ۵ رقم باشد</string>
+    <string name="bad_tell_number">شماره تلفن را درست وارد نکرده اید</string>
+    <string name="empty_tell_number">شماره ای وارد نکرده اید</string>
+    <string name="activation_button">فعالسازی</string>
+    <string name="send_tell">ارسال</string>
+    <string name="phone_number">شماره تلفن</string>
+    <string name="activation_part1_topPage">ثبت نام در کلود</string>
+    <string name="specs_no_nick_specified">نامی مشخص نکرده‌اید.</string>
+    <string name="specs_no_avatar_specified">عکسی مشخص نکرده‌اید.</string>
+    <!--   Last Translates   -->
+    <string name="about_android">برنامه‌ی اندروید %1$s</string>
+    <string name="about_version">نسخه‌ی %1$s</string>
+    <string name="actionbar_sync">بازنمایی حساب کاربری</string>
+    <string name="actionbar_upload">بارگذاری</string>
+    <string name="actionbar_upload_from_apps">محتوا از دیگر برنامه‌ها</string>
+    <string name="actionbar_upload_files">پرونده‌ها</string>
+    <string name="actionbar_open_with">باز کردن با</string>
+    <string name="actionbar_mkdir">پوشه جدید</string>
+    <string name="actionbar_see_details">جزئیات</string>
+    <string name="actionbar_send_file">ارسال</string>
+    <string name="actionbar_sort">مرتب‌سازی</string>
+    <string name="actionbar_sort_title">ترتیب بر اساس</string>
+    <string name="actionbar_settings">تنظیمات</string>
+    <string-array name="actionbar_sortby">
+        <item>بر اساس حروف الفبا</item>
+        <item>جدیدترین - قدیمی‌ترین</item>
+        <!-- TODO re-enable when server-side folder size calculation is available
+        <item>Biggest - Smallest</item>  -->
+    </string-array>
+    <string name="prefs_category_general">عمومی</string>
+    <string name="prefs_category_more">بیش‌تر</string>
+    <string name="prefs_accounts">حساب‌ها</string>
+    <string name="prefs_manage_accounts">مدیریت حساب‌ها</string>
+    <string name="prefs_pincode">پین برنامه</string>
+    <string name="prefs_pincode_summary">حفاظت از مشتری</string>
+    <string name="prefs_instant_upload">بارگذاری فوری تصاویر</string>
+    <string name="prefs_instant_upload_summary">بارگذاری فوری تصاویر گرفته‌شده با دوربین</string>
+    <string name="prefs_instant_video_upload">بارگذاری فوری فیلم‌ها</string>
+    <string name="prefs_instant_video_upload_summary">بارگذاری فوری فیلم‌های گرفته شده با دوربین</string>
+    <string name="prefs_log_title">فعال کردن گزارش‌گیری</string>
+    <string name="prefs_log_summary">این برای گرفتن گزارش از مشکلات استفاده می‌شود.</string>
+    <string name="prefs_log_title_history">تاریخچه گزارشات</string>
+    <string name="prefs_log_summary_history">این وقایع ثبت شده را نمایش می‌دهد.</string>
+    <string name="prefs_log_delete_history_button">حذف تاریخچه</string>
+    <string name="prefs_help">راه‌نما</string>
+    <string name="prefs_recommend">پیشنهاد دادن به یک دوست</string>
+    <string name="prefs_feedback">بازخورد</string>
+    <string name="prefs_imprint">مُهر زدن</string>
+    <string name="prefs_remember_last_share_location">مکان به اشتراک گذاشته را به یاد داشته باش</string>
+    <string name="prefs_remember_last_upload_location_summary">آخرین مکان به اشتراک‌گذاری آپلود را به یاد داشته باش</string>
+    <string name="recommend_subject">%1$s را بر روی گوشی هوشمند خود امتحان کنید.</string>
+    <string name="recommend_text">"من می‌خوام دعوتت کنم تا از %1$s روی مبایلت  استفاده کنی! از اینجا دانلود کن: %2$s"</string>
+    <string name="auth_check_server">چک کردن سرور</string>
+    <string name="auth_host_url">آدرس سرور https://…</string>
+    <string name="auth_username">نام کاربری</string>
+    <string name="auth_password">گذرواژه</string>
+    <string name="auth_register">کاربر جدید %1$s هستید؟</string>
+    <string name="sync_string_files">پرونده‌ها</string>
+    <string name="setup_btn_connect">اتصال</string>
+    <string name="uploader_btn_upload_text">بارگذاری</string>
+    <string name="uploader_btn_new_folder_text">پوشه جدید</string>
+    <string name="uploader_top_message">انتخاب پوشه آپلود:</string>
+    <string name="uploader_wrn_no_account_title">هیچ حسابی یافت نشد</string>
+    <string name="uploader_wrn_no_account_text">هیچ حسابی در %1$s بر روی دستگاه شما موجود نیست.لطفا اول یک حساب باز کنید.</string>
+    <string name="uploader_wrn_no_account_setup_btn_text">نصب</string>
+    <string name="uploader_wrn_no_account_quit_btn_text">خروج</string>
+    <string name="uploader_wrn_no_content_title">هیچ مطلبی بارگذاری نشده‌ است</string>
+    <string name="uploader_wrn_no_content_text">هیچ مطلبی دریافت نشده است. هیچ‌ چیزی بارگذاری نشده.</string>
+    <string name="uploader_error_forbidden_content">%1$s اجازه ی دسترسی به محتوای مشترک را نمی‌دهد</string>
+    <string name="uploader_info_uploading">در حال بارگذاری</string>
+    <string name="file_list_seconds_ago">ثانیه‌ها پیش</string>
+    <string name="file_list_empty">هیچ سندی موجود نمی‌باشد.</string>
+    <string name="file_list_loading">درحال پردازش ...</string>
+    <string name="local_file_list_empty">هیچ فایلی در این پوشه نیست.</string>
+    <string name="file_list_folder">پوشه</string>
+    <string name="file_list_folders">پوشه</string>
+    <string name="file_list_file">پرونده</string>
+    <string name="file_list_files">پرونده</string>
+    <string name="filedetails_select_file">روی هر فایل کلیک کنید تا اطلاعات اضافی نمایش داده شود.</string>
+    <string name="filedetails_size">اندازه :</string>
+    <string name="filedetails_type">نوع :</string>
+    <string name="filedetails_created">ایجاد شده توسط:</string>
+    <string name="filedetails_modified"> آخرین تغییرات :</string>
+    <string name="filedetails_download">بارگیری</string>
+    <string name="filedetails_sync_file">تازه‌سازی فایل</string>
+    <string name="filedetails_renamed_in_upload_msg">فایل در هنگام بارگذاری به %1$s تغییر نام یافت</string>
+    <string name="action_share_file">اشتراک گذاشتن لینک</string>
+    <string name="action_unshare_file">لغو اشتراک لینک</string>
+    <string name="common_yes">بله</string>
+    <string name="common_no">نه</string>
+    <string name="common_ok">باشه</string>
+    <string name="common_cancel_download">قطع بارگیری</string>
+    <string name="common_cancel_upload">قطع بارگذاری</string>
+    <string name="common_cancel">انصراف</string>
+    <string name="common_save_exit">ذخیره‌سازی و خروج</string>
+    <string name="common_error">خطا</string>
+    <string name="common_loading">بارگذاری ...</string>
+    <string name="common_error_unknown">خطای نامشخص</string>
+
+    <string name="about_title">درباره</string>
+    <string name="change_password">تغییر گذرواژه</string>
+    <string name="delete_account">حذف حساب</string>
+    <string name="create_account">ساخت حساب</string>
+
+    <string name="upload_chooser_title">بارگذاری از ...</string>
+    <string name="uploader_info_dirname">نام پوشه</string>
+    <string name="uploader_upload_in_progress_ticker">در حال بارگذاری ...</string>
+    <string name="uploader_upload_in_progress_content">%1$d%% در حال بارگذاری %2$s</string>
+    <string name="uploader_upload_succeeded_ticker">بارگذاری موفقیت‌آمیز بود</string>
+    <string name="uploader_upload_succeeded_content_single">فایل %1$s با موفقیت بارگذاری شد</string>
+    <string name="uploader_upload_failed_ticker">بارگذاری ناموفق بود</string>
+    <string name="uploader_upload_failed_content_single">بارگذاری %1$s نتوانست به طور کامل انجام شود</string>
+    <string name="uploader_upload_failed_credentials_error">بارگذاری موفق بود، شما باید دوباره وارد شوید</string>
+
+    <string name="downloader_download_in_progress_ticker">در حال بارگیری ...</string>
+    <string name="downloader_download_in_progress_content">%1$d%% در حال دانلود %2$s</string>
+    <string name="downloader_download_succeeded_ticker">بارگیری موفقیت‌آمیز بود</string>
+    <string name="downloader_download_succeeded_content">%1$s با موفقیت دانلود شد</string>
+    <string name="downloader_download_failed_ticker">بارگیری ناموفق بود</string>
+    <string name="downloader_download_failed_content">دانلود %1$s نتوانست به طور کامل انجام شود.</string>
+    <string name="downloader_not_downloaded_yet">دانلود هنوز به پایان نرسیده است.</string>
+    <string name="downloader_download_failed_credentials_error">دانلود ناموفق بود، دوباره وارد شوید</string>
+
+    <string name="common_choose_account">حساب کاربری را انتخاب کنید</string>
+
+    <string name="sync_fail_ticker">همگام‌سازی ناموفق</string>
+    <string name="sync_fail_ticker_unauthorized">همگام‌سازی ناموفق بود ، دوباره وارد شوید</string>
+    <string name="sync_fail_content">همگام‌سازی %1$s نتوانست به طور کامل انجام شود</string>
+    <string name="sync_fail_content_unauthorized">گذرواژه نامعتبر برای %1$s</string>
+    <string name="sync_conflicts_in_favourites_ticker">ناسازگاری‌هایی یافت شدند</string>
+    <string name="sync_conflicts_in_favourites_content">%1$d پرونده نمیتوانند همگام‌سازی شوند.</string>
+    <string name="sync_fail_in_favourites_ticker">همگام‌سازی پرونده‌ها ناموفق بود.</string>
+    <string name="sync_fail_in_favourites_content">محتوای %1$d فایل نمی‌تواند همگام شود(%2$d ناسازگاری)</string>
+    <string name="sync_foreign_files_forgotten_ticker">بعضی از فایل‌های محلی فراموش شده اند</string>
+    <string name="sync_foreign_files_forgotten_content">پرونده‌های خارج از پوشه نمی‌توانند کپی شوند</string>
+    <string name="sync_foreign_files_forgotten_explanation">
+    از ورژن 1.3.16  به بعد، برای جلوگیری از از دست رفتن داده‌ها، وقتی یک فایل با چند حساب کاربری همگام‌سازی می‌شود، فایل‌هایی که از موبایل بارگذاری می‌شوند درون پوشه محلی %1$s کپی  می‌شوند . برای این کار، تمام فایل‌های بارگذاری شده در نسخه‌های قبلی برنامه در پوشه ی %2$s کپی می‌شوند.
+</string>
+    <string name="sync_current_folder_was_removed">پوشه %1$s دیگر وجود ندارد</string>
+
+    <string name="foreign_files_move">انتقال همه</string>
+    <string name="foreign_files_success">همه فایل‌ها جا به جا شدند</string>
+    <string name="foreign_files_fail">بعضی از فایل‌ها نمی‌توانند انتقال یابند</string>
+    <string name="foreign_files_local_text">محلی: %1$s</string>
+    <string name="foreign_files_remote_text">دور از دسترس: %1$s</string>
+
+    <string name="upload_query_move_foreign_files">فضای خالی برای کپی پرونده‌ها در پوشه %1$s موجود نیست. به جای کپی کردن، می‌خواهید آن‌ها را روی داده‌های قبلی انتقال دهید؟ </string>
+
+    <string name="pincode_enter_pin_code">لطفاً پین برنامه خودتان را وارد کنید</string>
+    <string name="pincode_configure_your_pin">پین برنامه را وارد کنید</string>
+    <string name="pincode_configure_your_pin_explanation">هر زمان که برنامه آغاز شود پین درخواست خواهد شد.</string>
+    <string name="pincode_reenter_your_pincode">لطفاً پین برنامه‌تان را دوباره وارد کنید</string>
+    <string name="pincode_remove_your_pincode">پین برنامه‌تان را حذف کنید</string>
+    <string name="pincode_mismatch">پین‌های برنامه یکسان نیستند</string>
+    <string name="pincode_wrong">پین برنامه نادرست است</string>
+    <string name="pincode_removed">پین برنامه حذف شد</string>
+    <string name="pincode_stored">پین برنامه ذخیره شد</string>
+
+    <string name="media_notif_ticker">%1$s پخش کننده موسیقی</string>
+    <string name="media_state_playing">%1$s (در حال پخش موسیقی)</string>
+    <string name="media_state_loading">%1$s (درحال بارگذاری)</string>
+    <string name="media_event_done">پخش %1$s به پایان رسید.</string>
+    <string name="media_err_nothing_to_play">هیچ رسانه‌ای یافت نشد.</string>
+    <string name="media_err_no_account">هیچ حسابی ارائه نشده است.</string>
+    <string name="media_err_not_in_keloud">پرونده در یک حساب کاربری معتبر نیست.</string>
+    <string name="media_err_unsupported">کدک رسانه پشتیبانی نشده است.</string>
+    <string name="media_err_io">فایل رسانه نمی‌تواند خوانده شود.</string>
+    <string name="media_err_malformed">فایل رسانه به شکل صحیح کدگذاری نشده است.</string>
+    <string name="media_err_timeout">در حین تلاش برای پخش کردن، مهلت دریافت رسانه به پایان رسید</string>
+    <string name="media_err_invalid_progressive_playback">فایل رسانه نمی‌تواند جریان داشته باشد.</string>
+    <string name="media_err_unknown">فایل رسانه با استفاده از پخش کننده اصلی دستگاه نمی‌تواند پخش شود.</string>
+    <string name="media_err_security_ex">خطای امنیتی هنگام تلاش برای پخش %1$s</string>
+    <string name="media_err_io_ex">خطای ورودی در حین تلاش برای پخش %1$s</string>
+    <string name="media_err_unexpected">خطای غیرمنتظره در حین تلاش برای پخش %1$s</string>
+    <string name="media_rewind_description">دکمه عقبگرد</string>
+    <string name="media_play_pause_description">دکمه پخش یا توقف</string>
+    <string name="media_forward_description">دکمه رو به جلو سریع</string>
+
+    <string name="auth_getting_authorization">در حال کسب حقوق دسترسی ...</string>
+    <string name="auth_trying_to_login">تلاش برای ورود ...</string>
+    <string name="auth_no_net_conn_title">عدم اتصال به شبکه</string>
+    <string name="auth_nossl_plain_ok_title">اتصال امن در دسترس نیست</string>
+    <string name="auth_connection_established">اتصال برقرار شد</string>
+    <string name="auth_not_configured_title">پیکربندی سرور ناقص است</string>
+    <string name="auth_account_not_new">یک اکانت با همین نام کاربری و سرور بر روی این دستگاه موجود می‌باشد.</string>
+    <string name="auth_account_not_the_same">نام کاربری وارد شده با نام کاربری این اکانت مطابقت ندارد</string>
+    <string name="auth_unknown_error_title">خطای نامشخص رخ داده است!</string>
+    <string name="auth_unknown_host_title">میزبان را نمی‌تواند پیدا نماید.</string>
+    <string name="auth_incorrect_path_title">نمونه‌ی سرور یافت نشد</string>
+    <string name="auth_timeout_title">سرور در پاسخگویی خیلی معطل کرده است.</string>
+    <string name="auth_incorrect_address_title">آدرس ناقص</string>
+    <string name="auth_ssl_general_error_title">مقداردهی اولیه SSL ناموفق بود.</string>
+    <string name="auth_ssl_unverified_server_title">نمی‌توان اصالت SSL سرور را احراز نمود</string>
+    <string name="auth_bad_oc_version_title">نسخه‌ی سرور ناشناخته است</string>
+    <string name="auth_wrong_connection_title">نمی‌توان ارتباط برقرار نمود.</string>
+    <string name="auth_secure_connection">ارتباط ایمن ایجاد شد</string>
+    <string name="auth_unauthorized">نام کاربری یا رمز ورود اشتباه است</string>
+    <string name="auth_oauth_error">اجازه ناموفق</string>
+    <string name="auth_oauth_error_access_denied">دسترسی توسط سرور احراز هویت رد شده است.</string>
+    <string name="auth_wtf_reenter_URL">حالت غیرمنتظره؛ لطفا آدرس URL سرور را مجددا وارد نمایید.</string>
+    <string name="auth_expired_oauth_token_toast">احراز هویت شما منقضی شده است. لطفاً، مجدداً احراز هویت فرمایید.</string>
+    <string name="auth_expired_basic_auth_toast">لطفاً گذرواژه فعلی را وارد نمایید</string>
+    <string name="auth_expired_saml_sso_token_toast">مدت ورود شما به پایان رسیده است، لطفاً دوباره تلاش کنید</string>
+    <string name="auth_connecting_auth_server">در حال اتصال به سرور احراز هویت ...</string>
+    <string name="auth_unsupported_auth_method">سرور این نوع احراز هویت را پشتیبانی نمی‌کند</string>
+    <string name="auth_unsupported_multiaccount">%1$s چند اکانته بودن را پشتیبانی نمی‌کند</string>
+    <string name="auth_host_address">آدرس سرور</string>
+    <string name="auth_testing_connection"> در حال بررسی ارتباط با سرور </string>
+    <string name="auth_fail_get_user_name">خطایی در سرور رخ داده است، لطفاً با مرکز تماس بگیرید </string>
+    <string name="auth_can_not_auth_against_server">احراز هویت با سرور مورد نظر همخوانی ندارد</string>
+    <string name="auth_account_does_not_exist">هنوز حساب کاربری وجود ندارد</string>
+    <string name="auth_refresh_button">تازه‌سازی حساب</string>
+
+    <string name="auth_json_error">داده‌های گرفته شده در قالب درست نیستند</string>
+    <string name="auth_unsupported_encoding_error">کدگذاری داده‌های دریافتی پشتیبانی نمی‌شود</string>
+    <string name="auth_http_error">خطا در پروتکل HTTP</string>
+
+    <string name="fd_keep_in_sync">فایل را به روز نگه دار</string>
+
+    <string name="common_rename">تغییرنام</string>
+    <string name="common_remove">حذف</string>
+
+    <string name="confirmation_remove_alert">"واقعا میخواهید %1$s را حذف کنید؟ "</string>
+    <string name="confirmation_remove_folder_alert">"آیا واقعا میخواهید %1$s و محتویاتش را حذف کنید؟"</string>
+    <string name="confirmation_remove_local">فقط محلی</string>
+    <string name="confirmation_remove_folder_local">فقط محتوای محلی</string>
+    <string name="confirmation_remove_remote">پاک کردن از سرور</string>
+    <string name="confirmation_remove_remote_and_local">راه دور و محلی</string>
+
+    <string name="remove_success_msg">حذف با موفقیت انجام شد</string>
+    <string name="remove_fail_msg">حذف ناموفق بود</string>
+    <string name="rename_dialog_title">نام جدید وارد کنید</string>
+    <string name="rename_local_fail_msg">کپی محلی نمی‌تواند تغییر نام پیدا کند، لطفاً نام دیگری انتخاب نمایید.</string>
+    <string name="rename_server_fail_msg">نامگذاری نمی‌تواند به طور کامل انجام شود</string>
+    <string name="sync_file_fail_msg">پرونده‌های دور از دسترس نمی‌توانند بررسی شوند.</string>
+    <string name="sync_file_nothing_to_do_msg">محتوای فایل قبلاً همگام شده</string>
+    <string name="create_dir_fail_msg">پوشه نمی‌تواند ایجاد شود</string>
+    <string name="create_dir_success_msg">پوشه با موفقیت ایجاد شد</string>
+    <string name="filename_forbidden_characters">کاراکترهای ممنوع: / \\ &lt; &gt; : \" | ? *</string>
+    <string name="filename_empty">نام فایل نمی‌تواند خالی باشد</string>
+    <string name="wait_a_moment">لحظه‌ای درنگ کنید</string>
+    <string name="filedisplay_unexpected_bad_get_content">مشکل غیرمترقبه، لطفاً پرونده را از یک برنامه متفاوت انتخاب کنید.</string>
+    <string name="filedisplay_no_file_selected">هیچ پرونده‌ای انتخاب نشده است</string>
+    <string name="activity_chooser_title">ارسال لینک به ...</string>
+    <string name="oauth_check_onoff">ورود با oAuth2   </string>
+    <string name="oauth_login_connection">اتصال به سرور oAuth2 ...</string>
+
+    <string name="ssl_validator_header">هویت این سایت نمی‌تواند تایید شود</string>
+    <string name="ssl_validator_reason_cert_not_trusted">- گواهی سرور نامعتبر است</string>
+    <string name="ssl_validator_reason_cert_expired">- گواهی سرور منقضی شده</string>
+    <string name="ssl_validator_reason_cert_not_yet_valid">زمان اعتبار گواهی‌نامه سرویس‌دهنده فرا نرسیده است</string>
+    <string name="ssl_validator_reason_hostname_not_verified">URL با آدرس‌هاست موجود در گواهی‌نامه مطابقت ندارد.</string>
+    <string name="ssl_validator_question">آیا می‌خواهید در هر صورت به این مدرک اطمینان کنید؟</string>
+    <string name="ssl_validator_not_saved">گواهی نمی‌تواند ذخیره شود</string>
+    <string name="ssl_validator_btn_details_see">جزئیات</string>
+    <string name="ssl_validator_btn_details_hide">پنهان کردن</string>
+    <string name="ssl_validator_label_subject">صدور به:</string>
+    <string name="ssl_validator_label_issuer">صدور بوسیله:</string>
+    <string name="ssl_validator_label_CN">نام مشترک:</string>
+    <string name="ssl_validator_label_O">سازمان</string>
+    <string name="ssl_validator_label_OU">واحد سازمان</string>
+    <string name="ssl_validator_label_C">کشور:</string>
+    <string name="ssl_validator_label_ST">ایالت</string>
+    <string name="ssl_validator_label_L">مکان:</string>
+    <string name="ssl_validator_label_validity">اعتبار:</string>
+    <string name="ssl_validator_label_validity_from">از:</string>
+    <string name="ssl_validator_label_validity_to">به:</string>
+    <string name="ssl_validator_label_signature">امضا:</string>
+    <string name="ssl_validator_label_signature_algorithm">الگوریتم:</string>
+    <string name="ssl_validator_null_cert">نمایش گواهینامه امکان‌پذیر نمی‌باشد</string>
+    <string name="ssl_validator_no_info_about_error">هیچ‌گونه اطلاعاتی درباره خطا وجود ندارد</string>
+
+    <string name="placeholder_sentence">این یک حفره است.</string>
+    <string name="placeholder_filename">placeholder.txt</string>
+    <string name="placeholder_filetype">تصویربا فرمت PNG </string>
+    <string name="placeholder_filesize">389 کیلو بایت</string>
+    <string name="placeholder_timestamp">2012/05/18 12:23 بعد از ظهر</string>
+    <string name="placeholder_media_time">12:23:45</string>
+
+    <string name="instant_upload_on_wifi">تصاویر را فقط از طریق wifi بارگذاری کن</string>
+    <string name="instant_video_upload_on_wifi">آپلود ویدیو فقط از طریق WiFi</string>
+    <string name="instant_upload_path">/InstantUpload</string>
+
+    <string name="conflict_title">بارگذاری ناسازگار</string>
+    <string name="conflict_message">فایل دوردست %s با فایل‌های محلی همگام نشده است. ادامه‌ی کار، محتوا را روی فایل درون سرور جایگزین خواهد کرد.</string>
+    <string name="conflict_keep_both">نگهداشتن هر دو</string>
+    <string name="conflict_overwrite">رویش بنویس</string>
+    <string name="conflict_dont_upload">آپلود نکن</string>
+
+    <string name="preview_image_description">پیش‌نمایش تصویر</string>
+    <string name="preview_image_error_unknown_format">نمایش این عکس امکان‌پذیر نمی‌باشد</string>
+    <string name="error__upload__local_file_not_copied">%1$s نمی‌تواند درون پوشه محلی %2$s کپی شود</string>
+    <string name="prefs_instant_upload_path_title">آدرس بارگذاری</string>
+
+    <string name="share_link_no_support_share_api">با کمال تأسف، اشتراک‌گذاری روی سرور شما فعال نمی‌باشد! با مرکز تماس بگیرید</string>
+    <string name="share_link_file_no_exist">نمی‌تواند به اشتراک بگذارد! آیا فایل وجود دارد؟</string>
+    <string name="share_link_file_error">خطا در اشتراک‌گذاری پوشه یا پرونده</string>
+    <string name="unshare_link_file_no_exist">خطا در غیرفعالسازی اشتراک! آیا فایل موجود است؟</string>
+    <string name="unshare_link_file_error">خطا در غیرفعالسازی اشتراک پوشه یا پرونده</string>
+    <string name="share_link_password_title">گذرواژه را وارد کنید</string>
+    <string name="share_link_empty_password">شما باید یک گذرواژه انتخاب کنید</string>
+    <string name="activity_chooser_send_file_title">ارسال</string>
+    <string name="copy_link">کپی لینک</string>
+    <string name="clipboard_text_copied">کپی به کلیپ‌بورد</string>
+    <string name="error_cant_bind_to_operations_service">خطای جدی! عملیاتی قابل انجام نیست</string>
+    <string name="network_error_socket_exception">خطا در هنگام اتصال به سرور</string>
+    <string name="network_error_socket_timeout_exception">خطا در هنگام انتظار برای سرور</string>
+    <string name="network_error_connect_timeout_exception">خطا در حال انتظار برای اتصال به سرور</string>
+
+    <string name="network_host_not_available">تکمیل عملیات امکان‌پذیر نمی‌باشد، سرور در دسترس نیست</string>
+    <string name="empty"></string>
+
+    <string name="forbidden_permissions">شما اجازه‌ی دسترسی %s را ندارید</string>
+    <string name="forbidden_permissions_rename">برای تغییر نام این فایل</string>
+    <string name="forbidden_permissions_delete">برای حذف این فایل</string>
+    <string name="forbidden_permissions_create">برای ایجاد این فایل</string>
+    <string name="share_link_forbidden_permissions">برای اشتراک‌گذاری پرونده</string>
+    <string name="unshare_link_forbidden_permissions">برای غیرفعال کردن اشتراک این فایل</string>
+
+    <string name="uploader_upload_forbidden_permissions">برای آپلود در این پوشه</string>
+
+    <string name="downloader_download_file_not_found">این فایل دیگر روی سرور وجود ندارد</string>
+    <string name="prefs_category_accounts">حساب‌ها</string>
+    <string name="prefs_category_account">حساب</string>
+    <string name="prefs_add_account">اضافه کردن حساب کاربری</string>
+    <string name="auth_redirect_non_secure_connection_title">ارتباط امن به مسیر ناامن تبدیل شده است</string>
+
+    <string name="actionbar_logger">گزارش</string>
+    <string name="log_send_history_button">ارسال تاریخچه</string>
+    <string name="log_send_no_mail_app">برنامه‌ای برای ارسال گزارش یافت نشد، برنامه ایمیل نصب کنید</string>
+    <string name="log_send_mail_subject">%1$s گزارش‌های برنامه اندروید</string>
+    <string name="log_progress_dialog_text">درحال بارگذاری اطلاعات</string>
+
+    <string name="saml_authentication_required_text">احراز هویت مورد نیاز است</string>
+    <string name="saml_authentication_wrong_pass">گذرواژه اشتباه است</string>
+    <string name="actionbar_move">انتقال</string>
+    <string name="file_list_empty_moving">چیزی اینجا نیست، یک پوشه ایجاد کنید</string>
+    <string name="folder_picker_choose_button_text">انتخاب</string>
+    <string name="move_file_not_found">خطا در انتقال، آیا فایل وجود دارد؟</string>
+    <string name="move_file_invalid_into_descendent">انتقال به پوشه داخلی ممکن نیست</string>
+    <string name="move_file_invalid_overwrite">پرونده در پوشه مقصد وجود دارد</string>
+    <string name="move_file_error">خطا در انتقال پرونده یا پوشه</string>
+    <string name="forbidden_permissions_move">برای انتقال این پرونده</string>
+
+    <string name="prefs_category_instant_uploading">بارگذاری سریع</string>
+
+    <string name="prefs_category_security">امنیت</string>
+
+    <string name="prefs_instant_video_upload_path_title">آدرس بارگذاری فیلم</string>
+    <string name="download_folder_failed_content">دانلود با مشکل همراه بود</string>
+
+    <string name="subject_token">%1$s پوشه \"%2$s\" را با شما به اشتراک گذاشت</string>
+    <string name="title_activity_activation_part1">ثبت نام</string>
+    <string name="user_agreement_activation">با رفتن به مرحله ی بعد شما با شرایط استفاده از کلود موافقت می کنید</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_activation_part2">تایید پیامک</string>
+    <string name="sms">کد پیامک پنج رقمی</string>
+    <string name="title_activity_activation_part3">شخصی سازی حساب کاربری</string>
+    <string name="title_activity_activation_part4">وارد کردن ایمیل</string>
+    <string name="email_help"><b>پیشنهاد میکنیم برای امنیت بیشتر و پیش گیری از مشکلاتی از قبیل هک شدن پست الکترونیکی خود را برای پشتیبانی بهتر وارد کنید </b></string>
+    <string name="title_activity_payment_menu">PaymentMenu</string>
+    <string name="title_activity_continue_current_plan">ContinueCurrentPlan</string>
+    <string name="title_activity_select_new_plan">SelectNewPlan</string>
+    <string name="title_activity_financial_records">FinancialRecords</string>
+    <string name="title_activity_pre_invoice">PreInvoice</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+
+</resources>
