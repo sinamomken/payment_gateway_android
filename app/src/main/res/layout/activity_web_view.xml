@@ -4,7 +4,21 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="ir.sinamomken.paymentwebview.WebViewActivity">
+    tools:context="ir.sinamomken.paymentwebview.WebViewActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="url:"
+        android:id="@+id/url_tv"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="url_host:"
+        android:id="@+id/url_host_tv"/>
+
 
     <WebView
         android:layout_width="fill_parent"
