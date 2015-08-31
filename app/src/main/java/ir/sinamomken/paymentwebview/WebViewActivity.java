@@ -1,5 +1,6 @@
 package ir.sinamomken.paymentwebview;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -55,11 +56,21 @@ public class WebViewActivity extends ActionBarActivity {
         MyWebViewClient myClient = new MyWebViewClient();
         wv.setWebViewClient(myClient);
         wv.getSettings().setBuiltInZoomControls(true);
+        //enable Javascript
+        wv.getSettings().setJavaScriptEnabled(true);
         wv.loadUrl(mIPGUrl);
+        //loads the WebView completely zoomed out
+        wv.getSettings().setLoadWithOverviewMode(true);
+        wv.getSettings().setUseWideViewPort(true);
     }
 
+    public static final String KEY_RESULT_URL = "RESULT_URL";
     private void returnToParent(String resultUrl){
-        mUrlHostTextView.setText("returing to parent activity with "+resultUrl);
+        //mUrlHostTextView.setText("returing to parent activity with "+resultUrl);
+        Intent returnIntent = new Intent();
+        returnIntent.putExtra(KEY_RESULT_URL,resultUrl);
+        setResult(RESULT_OK,returnIntent);
+        finish();
     }
 
     @Override
