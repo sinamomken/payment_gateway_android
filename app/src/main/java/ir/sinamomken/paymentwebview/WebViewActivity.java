@@ -1,8 +1,8 @@
 package ir.sinamomken.paymentwebview;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -17,7 +17,7 @@ import java.net.URL;
 
 import ir.keloud.android.lib.common.utils.Log_OC;
 
-public class WebViewActivity extends ActionBarActivity {
+public class WebViewActivity extends Activity {
     public class MyWebViewClient extends WebViewClient{
         /**
          * {@inheritDoc}

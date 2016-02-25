@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PaymentWebView.iml" filepath="$PROJECT_DIR$/PaymentWebView.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/keloud-android-lib/keloud-android-lib.iml" filepath="$PROJECT_DIR$/keloud-android-lib/keloud-android-lib.iml" />
     </modules>
   </component>
 </project>

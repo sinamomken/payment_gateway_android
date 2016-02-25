@@ -1,5 +1,6 @@
 package ir.sinamomken.paymentwebview;
 
+import android.app.Activity;
 import android.app.Dialog;
 import android.content.ActivityNotFoundException;
 import android.content.ComponentName;
@@ -8,7 +9,6 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.AsyncTask;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -25,7 +25,7 @@ import ir.sinamomken.paymentwebview.payment.gateway.SigninOperation;
 import ir.sinamomken.paymentwebview.payment.gateway.SignupOperation;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends Activity {
     private static final String TAG = MainActivity.class.getSimpleName();
 
     private String mAccountPassword = "123456";

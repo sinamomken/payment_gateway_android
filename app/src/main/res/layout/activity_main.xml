@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             android:text="Sign Up"
             android:id="@+id/signup_btn"
-            android:background="@drawable/abc_btn_default_mtrl_shape"
+            android:background="@android:drawable/btn_default"
             android:onClick="onSignupBtnClick"/>
         <TextView
             android:layout_marginLeft="10dp"
@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:text="Sign In"
             android:id="@+id/signin_btn"
-            android:background="@drawable/abc_btn_default_mtrl_shape"
+            android:background="@android:drawable/btn_default"
             android:onClick="onSigninBtnClick"/>
         <TextView
             android:layout_marginLeft="10dp"
@@ -65,7 +65,7 @@
             android:layout_height="wrap_content"
             android:text="Get Gateways"
             android:id="@+id/get_gateways_btn"
-            android:background="@drawable/abc_btn_default_mtrl_shape"
+            android:background="@android:drawable/btn_default"
             android:onClick="onGetGatewaysBtnClick"/>
         <TextView
             android:layout_marginLeft="10dp"
@@ -90,7 +90,7 @@
             android:layout_height="wrap_content"
             android:text="Payment Url"
             android:id="@+id/make_payment_btn"
-            android:background="@drawable/abc_btn_default_mtrl_shape"
+            android:background="@android:drawable/btn_default"
             android:onClick="onPaymentUrlBtnClick"/>
         <LinearLayout
             android:layout_width="match_parent"
@@ -164,21 +164,21 @@
             android:layout_height="wrap_content"
             android:text="Open WebView"
             android:id="@+id/open_webview_btn"
-            android:background="@drawable/abc_btn_default_mtrl_shape"
+            android:background="@android:drawable/btn_default"
             android:onClick="onOpenWebviewBtnClick"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Open Chrome"
             android:id="@+id/open_chrome_btn"
-            android:background="@drawable/abc_btn_default_mtrl_shape"
+            android:background="@android:drawable/btn_default"
             android:onClick="onOpenChromeBtnClick"/>.
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Open Browser"
             android:id="@+id/open_browser_btn"
-            android:background="@drawable/abc_btn_default_mtrl_shape"
+            android:background="@android:drawable/btn_default"
             android:onClick="onOpenBrowserBtnClick"/>.
     </LinearLayout>
     <Button
@@ -186,6 +186,6 @@
         android:layout_height="wrap_content"
         android:text="Last Payment Verification"
         android:id="@+id/last_payment_verification"
-        android:background="@drawable/abc_btn_default_mtrl_shape"
+        android:background="@android:drawable/btn_default"
         android:onClick="onPaymentVerificationBtnClick"/>
 </LinearLayout>
